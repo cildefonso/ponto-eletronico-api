@@ -1,8 +1,8 @@
 
-#dist: xenial
-#sudo: false
-#services:
-#  - mysql -u root -p
+dist: xenial
+sudo: false
+services:
+  - mysql -u root -p
 
 #sudo: required
 #before_install:
@@ -16,12 +16,12 @@
 #script:
 #- echo "skipping tests"
 
-#addons:
-#  apt:
-#    sources:
-#      - mysql-5.7-trusty
-#    packages:
-#      - mysql-server
+addons:
+  apt:
+    sources:
+      - mysql-5.7-trusty
+    packages:
+      - mysql-server
 
 dist: trusty
 
