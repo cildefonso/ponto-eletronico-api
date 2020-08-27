@@ -13,8 +13,8 @@
 #  - mysql -u root flyway < src/main/resources/db/migration/mysql/V4__init_company.sql
 #  - mysql -u root flyway < src/main/resources/db/migration/mysql/V5__table_user.sql
 
-script:
-- echo "skipping tests"
+#script:
+#- echo "skipping tests"
 
 #addons:
 #  apt:
@@ -43,7 +43,7 @@ addons:
     token: 
         secure: "d6188a6e016ac038ee6c03206b679be6535508b3"
         
-notifications:
-  email:
-    - cildefonso@gmail.com, deleon.simoni@gmail.com
+#notifications:
+#  email:
+#    - cildefonso@gmail.com, deleon.simoni@gmail.com
  
